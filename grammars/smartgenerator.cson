@@ -1,0 +1,32 @@
+'scopeName': 'source.smartgen'
+'name': 'smartGENERATOR'
+'fileTypes': ['in']
+'patterns': [
+  {
+    'match': '^(#META)'
+    'name': 'keyword.control.smartgen'
+  }
+  {
+    'match': '^(#IMPORT|#endfor|#endif|#else|#for|#if|#TYPE)'
+    'name': 'keyword.control.flow.smartgen'
+  }
+  {
+    'match': '(#\\..*$|\\.[^\'"].*$)'
+    'name': 'comment.line.number-sign.smartgen'
+  }
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.smartgen'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.smartgen'
+  }
+  {
+    'begin': '<'
+    'end': '>'
+    'name': 'variable.other.smartgen'
+  }
+]

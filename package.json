@@ -1,0 +1,15 @@
+{
+  "name": "atom-syntax-smartgenerator",
+  "version": "0.1.0",
+  "description": "Syntax highlighting for smartGENERATOR template files",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WolfgangFahl/atom-syntax-smartgenerator"
+  },
+  "license": "MIT",
+  "package-deps": []
+}
